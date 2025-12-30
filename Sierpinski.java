@@ -7,7 +7,7 @@ public class Sierpinski {
 	
 	// Draws a Sierpinski triangle of depth n on the standard canvass.
 	public static void sierpinski (int n) {
-		tdDraw.line(0.0,0.0,0.5,Math.sqrt(0.75));
+		StdDraw.line(0.0,0.0,0.5,Math.sqrt(0.75));
 		StdDraw.line(1.0,0.0,0.5,Math.sqrt(0.75));
 		StdDraw.line(0.0,0.0,1.0,0.0);
 		sierpinski(n,0.0,1.0,0.5,0.0,0.0,Math.sqrt(0.75));

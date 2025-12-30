@@ -12,10 +12,9 @@ public class Palindrome {
         }
 		char firstChar = s.charAt(0);
         char lastChar = s.charAt(s.length() - 1);
-		if (firstChar != lastChar) {
+        if (firstChar != lastChar) {
             return false; 
         }
-		return false;
+        return isPalindrome(s.substring(1, s.length() - 1));
     }
-	return isPalindrome(s.substring(1, s.length() - 1));
     }
